@@ -8,7 +8,6 @@ import React, { useState } from "react";
 type Address = {
     cep: number;
     bairro:string;
-    complemento:string;
     uf:string;
     logradouro: string;
     localidade: string;
@@ -34,7 +33,6 @@ export function Cep(this: any){
             setInput("");
         }
     }
-    
     
     return(
         
